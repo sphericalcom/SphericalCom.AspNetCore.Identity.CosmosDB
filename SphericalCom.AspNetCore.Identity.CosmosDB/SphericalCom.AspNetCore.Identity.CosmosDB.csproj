@@ -4,7 +4,37 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>SphericalCom.AspNetCore.Identity.CosmosDB</Title>
+    <Version>8.0.7</Version>
+    <Authors>Alexis Nuviedo</Authors>
+    <Company>SphericalCom</Company>
+    <Description>A no-frills, close-to-spec implementation of the ASP.NET Core Identity database for CosmosDB using EntityFrameworkCore, as non-intrusive as possible and designed for ASP.NET 8.</Description>
+    <Copyright>SphericalCom, available under the MIT license</Copyright>
+    <PackageProjectUrl>https://github.com/sphericalcom/SphericalCom.AspNetCore.Identity.CosmosDB/</PackageProjectUrl>
+    <PackageIcon>cow.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/sphericalcom/SphericalCom.AspNetCore.Identity.CosmosDB/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>Nuget packaging</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageTags>Cosmos, CosmosDB, Identity Provider, AspNetCore, AspNetCore.Identity, AspNetCore.Identity.CosmosDb, Microsoft.AspNetCore.Identity, asp, EntityFrameworkCore</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\cow.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.7" />
