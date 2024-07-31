@@ -12,7 +12,7 @@ And after thorough research, the Identity project left all the pieces in place t
 For this we're assuming you have an existing ASP.NET core Identity application working with the default database provider (SqlServer). If this is not the case, please refer to the [documentation](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-8.0), as their tutorials are better than anything I can come up with here.
 
 ### Nuget package
-A nuget package can be found at [PENDING PACKAGE LINK](https://github.com). Installing the latest stable will allow for usage of the project. Please update all of your project dependencies, as the nuget package uses the latest stable versions of the packages it requires:
+A nuget package can be found at [SphericalCom.AspNetCore.Identity.CosmosDB]([https://github.com](https://www.nuget.org/packages/SphericalCom.AspNetCore.Identity.CosmosDB/)). Installing the latest stable will allow for usage of the project. Please update all of your project dependencies, as the nuget package uses the latest stable versions of the packages it requires:
 * Microsoft.AspNetCore.Identity.EntityFrameworkCore
 * Microsoft.EntityFrameworkCore.Cosmos
 * Microsoft.Extensions.Identity.Core
