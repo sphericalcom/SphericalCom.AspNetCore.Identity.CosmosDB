@@ -1,5 +1,5 @@
 # SphericalCom.AspNetCore.Identity.CosmosDB
-![NuGet Version](https://img.shields.io/nuget/v/SphericalCom.AspNetCore.Identity.CosmosDB)
+![NuGet Version](https://img.shields.io/nuget/v/SphericalCom.AspNetCore.Identity.CosmosDB?link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FSphericalCom.AspNetCore.Identity.CosmosDB)
 
 A no-frills, close-to-spec implementation of the ASP.NET Core Identity database for CosmosDB using EntityFrameworkCore, as non-intrusive as possible and designed for ASP.NET 8.
 
