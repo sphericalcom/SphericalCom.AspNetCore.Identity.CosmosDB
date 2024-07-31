@@ -1,0 +1,1 @@
+# SphericalCom.AspNetCore.Identity.CosmosDB
